@@ -39,30 +39,30 @@ function setup(){
     ground = new Ground(600, 390, 1200, 20);
 
     hexagon = new Hexagon(66, 72, 89);
-    ground1 = new Ground(300, 268, 170, 20);
-    box1 = new Square1(300, 150,20,20);//top yellow
-    box2 = new Square2(315, 180,20,20);//2nd layer blue to the right
-    box3 = new Square2(285, 180,20,20);//2nd layer blue to the left
-    box4 = new Square3(330, 210,20,20);//3rd layer pink to the right
-    box5 = new Square3(300, 210,20,20);//3rd layer pink middle
-    box6 = new Square3(270, 210,20,20);//3rd layer pink to the left
-    box7 = new Square4(285, 240,20,20);//4th layer orange middle right
-    box8 = new Square4(315, 240,20,20);//4th layer orange further right
-    box9 = new Square4(345, 240,20,20);//4th layer orange further left
-    box10 = new Square4(255, 240,20,20);//4th layer orange middle left
+    ground1 = new Ground(300, 268, 200, 20);
+    box1 = new Square1(300, 150,40,50);//top yellow
+    box2 = new Square2(315, 180,40,50);//2nd layer blue to the right
+    box3 = new Square2(285, 180,40,50);//2nd layer blue to the left
+    box4 = new Square3(330, 210,40,50);//3rd layer pink to the right
+    box5 = new Square3(300, 210,40,50);//3rd layer pink middle
+    box6 = new Square3(270, 210,40,50);//3rd layer pink to the left
+    box7 = new Square4(285, 240,40,50);//4th layer orange middle right
+    box8 = new Square4(315, 240,40,50);//4th layer orange further right
+    box9 = new Square4(345, 240,40,50);//4th layer orange further left
+    box10 = new Square4(255, 240,40,50);//4th layer orange middle left
 
 
-    ground2 = new Ground(700, 218, 170, 20);
-    box11 = new Square1(700, 100,20,20);//top yellow
-    box12 = new Square2(715, 130,20,20);//2nd layer blue to the right
-    box13 = new Square2(685, 130,20,20);//2nd layer blue to the left
-    box14 = new Square3(730, 160,20,20);//3rd layer pink to the right
-    box15 = new Square3(700, 160,20,20);//3rd layer pink middle
-    box16 = new Square3(670, 160,20,20);//3rd layer pink to the left
-    box17 = new Square4(685, 190,20,20);//4th layer orange middle right
-    box18 = new Square4(715, 190,20,20);//4th layer orange further right
-    box19 = new Square4(745, 190,20,20);//4th layer orange further left
-    box20 = new Square4(655, 190,20,20);//4th layer orange middle left
+    ground2 = new Ground(700, 218, 200, 20);
+    box11 = new Square1(700, 100,40,50);//top yellow
+    box12 = new Square2(715, 130,40,50);//2nd layer blue to the right
+    box13 = new Square2(685, 130,40,50);//2nd layer blue to the left
+    box14 = new Square3(730, 160,40,50);//3rd layer pink to the right
+    box15 = new Square3(700, 160,40,50);//3rd layer pink middle
+    box16 = new Square3(670, 160,40,50);//3rd layer pink to the left
+    box17 = new Square4(685, 190,40,50);//4th layer orange middle right
+    box18 = new Square4(715, 190,40,50);//4th layer orange further right
+    box19 = new Square4(745, 190,40,50);//4th layer orange further left
+    box20 = new Square4(655, 190,40,50);//4th layer orange middle left
 
     
 }

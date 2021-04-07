@@ -8,8 +8,8 @@ class Square2{
     
         }
         this.body = Bodies.rectangle(x, y, 50, 50, options);
-        this.width = 30;
-        this.height = 30;
+        this.width = 40;
+        this.height = 50;
 
         World.add(world, this.body);
 
@@ -22,7 +22,7 @@ class Square2{
         rotate(angle);
         rectMode(CENTER);
         stroke('purple');
-        strokeWeight(5);
+        strokeWeight(3);
         fill("turquoise");
         rect(0, 0, this.width, this.height);
         pop();
