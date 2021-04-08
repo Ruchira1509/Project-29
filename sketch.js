@@ -71,6 +71,12 @@ function draw(){
     background("lightblue");
     Engine.update(engine);
 
+    stroke('black');
+    strokeWeight(1);
+    fill("black");
+    textSize(15);
+    text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks.",40,30);
+
     ground.display();
 
     ground1.display();
